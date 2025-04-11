@@ -18,19 +18,19 @@ p{
 
     line-height: 1.6;
 }
-div .titulo-bloco{
+div > .titulo-bloco{
     border-bottom: 2px solid gray;
     
 }
-div bloco-um p{
+div.bloco-um p{
 background-color: lightgray;
 
 }
 
-div bloco-dois{
+div .bloco-dois> .titulo-bloco{
     font-family: Arial,sans-serif;
 }
-div >bloco-dois p{
+div .bloco-dois p{
 padding: 10px;
 }
 
@@ -38,10 +38,10 @@ div > .lista-itens{
     margin-bottom: 5px;
 
 }
-div> .itemdestaque {
+div> .item destaque {
     background-color: lightblue;
     
 }
-div > # ultimo-item{
+div > #ultimo-item{
     color: darkblue;
 }
