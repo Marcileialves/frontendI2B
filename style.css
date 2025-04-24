@@ -1,0 +1,16 @@
+header{
+  font-size: larger;
+  font-style: normal;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+background-color: rgb(88, 86, 86);
+text-decoration: none;
+height: 150px;
+padding: 1px 2%;
+
+}
+
+header li{
+    display: inline-block;
+    color: rgb(red, green, blue);
+    background-size: cover;
+}
