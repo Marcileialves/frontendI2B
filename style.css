@@ -37,3 +37,13 @@ main h1{
    text-align: center;
    background-color: antiquewhite;
 }
+
+main img{
+   justify-content: center;
+   width: 900px;
+   background-repeat: no-repeat;
+   background-image: url("imagem_design.png");
+   background-position: center;
+   background-size: contain;
+   
+} 
