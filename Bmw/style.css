@@ -1,0 +1,185 @@
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+    
+}
+.list li {
+    text-align: center;
+    display: inline-block;
+    border:2px solid white;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(to right,#2c2c2c);
+    height: 20px;
+    width: 150px;
+    text-align: center;
+}
+.list li:hover{
+    transform: translate(0, -10px);
+    transition: 0.5s;
+    background-color: aquamarine;
+}
+.Menu li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+body{
+    background-color: white;
+}
+.Menu {
+    text-align: center;
+    border: solid 2px ;
+    width: 50%;
+    margin-left: 25%;
+    padding: 20px;
+    border-radius: 15px;
+    border-color: #d3d3d3;
+    background-color: #fff;
+}
+.container {
+    border: solid 2px #d3d3d3; ;
+    padding:30px;
+    margin: 0 auto;
+    background-color: #d3d3d3;
+
+}
+
+.container_dois{
+    display: grid;
+    place-items: center; /* Centraliza horizontal e verticalmente */
+    width: 1200px;
+    margin-top: 20px;
+    margin-left: 60px;
+    height: 700px;
+    padding-bottom: 600px;
+    background-color: #dcdcdc;
+
+
+}
+
+.primeira_coluna div{
+    display: inline-flex;
+    background-color: #a9a9a9;
+    border-radius: 5px;
+    margin-top: 90px;
+    margin-left: 60px;
+    margin-right: 50px;
+    padding: 250px 200px;
+    background-size: 100px;
+
+
+}
+
+.segunda_coluna div{
+    display: inline-flex;
+    background-color: #a9a9a9;
+    border-radius: 5px;
+    margin-top: 90px;
+    margin-left: 60px;
+    margin-right: 50px;
+    padding: 250px 200px;
+    background-size: 100px;
+
+
+
+}
+
+
+#div_um{
+    background-image: url(/Ferrari/imag/carro_roma.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: top 70px left 20px;
+    background-size: 90%;
+    position: relative;
+    border: 2px solid white;
+}
+#div_dois{
+    background-image: url(/Ferrari/imag/carro_dois.jpg);
+    background-repeat: no-repeat;
+    background-position: top 60px left 20px;
+    background-size: 90%;
+    position: relative;
+    border: 2px solid white;
+}
+#div_tres{
+    background-image: url(/Ferrari/imag/Carro_3.jpg);
+    background-repeat: no-repeat;
+    background-position: top 70px left 20px;
+    background-size: 90%;
+    position: relative;
+    border: 2px solid white;
+}
+#div_quatro{
+    background-image: url(/Ferrari/imag/carro_4.jpg);
+    background-repeat: no-repeat;
+    background-position: top 70px left 20px;
+    background-size: 90%;
+    position: relative;
+    border: 2px solid white;
+}
+
+#div_um p{
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    text-align: bottom and left;
+    border-radius: 5px ;
+    margin-top: auto;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    width: 300px;
+    text-align: center;
+    background-color: #2c2c2c;
+}
+#div_dois p{
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    text-align: bottom and left;
+    border-radius: 5px ;
+    margin-top: auto;
+    position: absolute;
+    bottom: 0px;
+    left: 50px;
+    width: 300px;
+    text-align: center;
+    background-color: #2c2c2c;
+    
+}
+#div_tres p{
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    text-align: bottom and left;
+    border-radius: 5px ;
+    margin-top: auto;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    width: 300px;
+    text-align: center;
+    background-color: #2c2c2c;
+}
+#div_quatro p{
+    padding: 10px;
+    color:white;
+    font-size: 20px;
+    text-align: bottom and left;;
+    border-radius: 5px ;
+    margin-top: auto;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    width: 300px;
+    text-align: center; 
+    background-color: #2c2c2c;   
+}
