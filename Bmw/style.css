@@ -54,7 +54,7 @@ body{
 .container_dois{
     display: grid;
     place-items: center; /* Centraliza horizontal e verticalmente */
-    width: 1200px;
+    width: 1650px;
     margin-top: 20px;
     margin-left: 60px;
     height: 700px;
@@ -69,7 +69,7 @@ body{
     background-color: #a9a9a9;
     border-radius: 5px;
     margin-top: 90px;
-    margin-left: 60px;
+    margin-left: 70px;
     margin-right: 50px;
     padding: 250px 200px;
     background-size: 100px;
@@ -82,7 +82,7 @@ body{
     background-color: #a9a9a9;
     border-radius: 5px;
     margin-top: 90px;
-    margin-left: 60px;
+    margin-left: 70px;
     margin-right: 50px;
     padding: 250px 200px;
     background-size: 100px;
