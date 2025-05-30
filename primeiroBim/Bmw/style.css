@@ -93,7 +93,7 @@ body{
 
 
 #div_um{
-    background-image: url(/Bmw/img/Bmw-i8.webp);
+    background-image: url(./img/Bmw-i8.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-position: top 70px left 20px;
@@ -102,7 +102,7 @@ body{
     border: 2px solid white;
 }
 #div_dois{
-    background-image: url(/Bmw/img/Bmw-M4\ -competion.jpg);
+    background-image: url(./img/Bmw-M4\ -competion.jpg);
     background-repeat: no-repeat;
     background-position: top 60px left 20px;
     background-size: 90%;
@@ -110,7 +110,7 @@ body{
     border: 2px solid white;
 }
 #div_tres{
-    background-image: url(/Bmw/img/Bmw-série8.webp);
+    background-image: url(./img/Bmw-série8.webp);
     background-repeat: no-repeat;
     background-position: top 70px left 20px;
     background-size: 90%;
@@ -118,7 +118,7 @@ body{
     border: 2px solid white;
 }
 #div_quatro{
-    background-image: url(/Bmw/img/BMW\ Z4\ Roadster.webp);
+    background-image: url(./img/BMW\ Z4\ Roadster.webp);
     background-repeat: no-repeat;
     background-position: top 70px left 20px;
     background-size: 90%;

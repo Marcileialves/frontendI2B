@@ -93,7 +93,7 @@ body{
 
 
 #div_um{
-    background-image: url(/Bugatti/img/Bugatti-veirony.avif);
+    background-image: url(./img/Bugatti-veirony.avif);
     background-repeat: no-repeat;
     background-position: center;
     background-position: top 70px left 20px;
@@ -102,7 +102,7 @@ body{
     border: 2px solid white;
 }
 #div_dois{
-    background-image: url(/Bugatti/img/bugatti_chiron_sport_8.webp);
+    background-image: url(./img/bugatti_chiron_sport_8.webp);
     background-repeat: no-repeat;
     background-position: top 60px left 20px;
     background-size: 90%;
@@ -110,7 +110,7 @@ body{
     border: 2px solid white;
 }
 #div_tres{
-    background-image: url(/Bugatti/img/Bugatti-divo.jpg);
+    background-image: url(./img/Bugatti-divo.jpg);
     background-repeat: no-repeat;
     background-position: top 70px left 20px;
     background-size: 90%;
@@ -118,7 +118,7 @@ body{
     border: 2px solid white;
 }
 #div_quatro{
-    background-image: url(/Bugatti/img/bugatti-la-voiture-noire-definitive.jpg);
+    background-image: url(./img/bugatti-la-voiture-noire-definitive.jpg);
     background-repeat: no-repeat;
     background-position: top 70px left 20px;
     background-size: 90%;
