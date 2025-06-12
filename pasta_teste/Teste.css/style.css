@@ -1,0 +1,24 @@
+#Menu_pag{
+    background-color: aqua;
+    border: solid 2px;
+    padding: 60px;
+
+
+}
+
+#Menu_pag li{
+    color: white;
+    text-align: center;
+    display: inline-block;
+    margin-left: 20%;
+
+}
+
+#Menu_pag li a{
+    background-color: black;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+
+}
