@@ -10,31 +10,38 @@
     color: white;
     text-align: center;
     display: inline-block;
-    margin-left:0 auto;
+    margin-left: 0 auto;
 
 }
 
 
 
 
+
+
+
 @media screen and (max-width: 600px) {
-    header ul{
-        position: fixed;
-        top:0;
-        bottom: 100px;
-        width: 10px;
-        height: 100%;
+    #Menu_pag{
+        position: absolute;
         bottom: 0;
+        height: 100vh;
+        width: 10px;
 
 
 
     }
 
-    header ul li{
-        font-size: 10px;
-        margin-left: 0;
-        padding: 90px;
-        
+    #Menu_pag  li{
+
+
+    }
+
+    #Menu_pag li a {
+        margin-left: 0 auto;
+        font-size: 10;
+        color: black;
+        text-decoration: none;
+        border: 2px;
 
     }
 

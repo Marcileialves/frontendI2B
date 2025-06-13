@@ -1,3 +1,25 @@
+th, td{
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 10px;
+}
+
+th {
+    background-color: aquamarine;
+}
+
+td{
+    background-color: antiquewhite;
+}
+
+#Media{
+    background-color: rgb(125, 125, 139);
+    color: azure;
+}
+ 
 
 
-
+table{
+    margin: auto;
+    border-collapse: collapse;
+}
