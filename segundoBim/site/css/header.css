@@ -14,6 +14,18 @@
 
 }
 
+#Menu_pag li a {
+    margin-left: 350px;
+    background-color: black;
+    padding: 20px;
+    border: solid white;
+    border-radius: 15px;
+    text-decoration: none;
+    color: beige;
+
+}
+
+
 
 
 
@@ -32,7 +44,12 @@
     }
 
     #Menu_pag  li{
-
+        font-size: 10px;
+        padding: 10px 20px;
+        margin-top: 10px;
+        border: 2px solid black;
+        border-radius: 10px;
+        
 
     }
 
