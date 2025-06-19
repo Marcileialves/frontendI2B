@@ -1,23 +1,39 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #111;
-  color: white;
+
+
 }
 
-header {
-  background-color: #111;
-  text-align: center;
-  padding: 20px 0;
+header div {
+    display: inline-block;
+    background: linear-gradient(to right, #000000, #000000);
+    text-align: center;
+    width: 100vw;
+    height:16vw;
 }
 
-header img {
-  height: 50px;
+header div img {
+    display: inline-block;
+    position: fixed;
+    height: 90px;
+    top: calc(50% - 300px);
+    left: calc(100% - 1200px);
+}
+
+header div h1 {
+    display: inline-block;
+    position:  fixed;
+    top: calc(50% - 300px);
+    left: calc(50% - 200px);
+    font-size: 35px;
+    color: #024ef3;
+    font-weight: bold;
 }
 
 h1 {
-  color: #1a6dff;
-  margin: 10px 0;
+    display: inline-block;
+    color: #1a6dff;
+    margin: 10px 0;
 }
 
 .menu-topo {
@@ -30,7 +46,7 @@ h1 {
 
 .menu-topo h2 {
   font-size: 18px;
-  color: #000;
+  color: #16120d;
 }
 
 .bimestres {
@@ -42,21 +58,10 @@ h1 {
   background-color: #000;
   color: #fff;
   border: none;
-  padding: 5px 15px;
+  padding: 10px 15px;
   cursor: pointer;
 }
 
-.conteudo {
-  background-color: #fff;
-  color: #000;
-  padding: 40px 20px;
-  text-align: center;
-}
-
-.conteudo h3 {
-  margin-bottom: 30px;
-  font-size: 24px;
-}
 
 .linguagens {
   display: flex;
@@ -70,10 +75,3 @@ h1 {
   height: 150px;
 }
 
-footer {
-  background-color: #111;
-  color: #fff;
-  text-align: center;
-  padding: 15px;
-  font-weight: bold;
-}
