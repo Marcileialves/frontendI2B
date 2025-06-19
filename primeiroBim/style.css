@@ -1,80 +1,12 @@
-body{
-    background-color: rgb(188, 190, 192);
-}
 #Nome_site{
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    color: #333;
     text-align: center;
-    border: 2px solid white;
-    padding: 90px;
-    background-color: #c1c1c1;
-    margin-top: 10PX;
-    border-radius: 20px;
-    
+    margin-top: 20px;
+    margin-top: 0px;
+    padding: 40px;
+    background-color: black;
+    color: violet;
 
 }
-
-.Container{
-    background-color: rgba(40, 207, 219, 0.63);
-    width: 1400px;
-    padding: 90px;
-    margin-top: 100px;
-    margin-left: 180px;
-    border-radius: 40px;
-}
-
-.Menu{
-    display: inline-block;
-    margin: 10px;
-
-
-}
-.Menu li{
-    text-decoration: none;
-    font-size: 15px;
-    width: 130px;
-    display: inline-block;
-    text-align: center;
-    margin: 20px;
-    padding: 25px;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-left: 60px;
-    background-color: white;
-    border-radius: 25px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    
-
-}
-
-.Menu li a {
-    color: black;
-    text-decoration: none;
-    text-align: center;
-
-}
-
-@ mover{
-    translate: 20px;
-}
-.Menu li:hover{
-    background-color: aqua;
-
-}
-.fotter{
-    text-align: center;
-    margin-top: 100px;
-    padding: 20px;
-    background-color: #fdfbfb2a;
-    border-radius: 15px;
-    border: solid 2px;
-    margin-bottom: 20px;
-    position: relative;
-    bottom: 0;
-
-
-}
-footer p{
-    color: black;
-    font-size: 20px;
-    text-align: center;
-    margin-top: 20px;}
