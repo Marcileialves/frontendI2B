@@ -8,26 +8,27 @@ header div {
     display: inline-block;
     background: linear-gradient(to right, #000000, #000000);
     text-align: center;
-    width: 100vw;
-    height:16vw;
+    width: calc(100vw - 20px);
+    height:12vw;
 }
 
 header div img {
     display: inline-block;
     position: absolute;
-    height: 90px;
-    top: calc(50% - 300px);
-    left: calc(100% - 1200px);
+    height: 130px;
+    top: calc(50% - 420px);
+    left: calc(100% - 1800px);
 }
 
 header div h1 {
     display: inline-block;
     position:  absolute;
-    top: calc(50% - 300px);
-    left: calc(50% - 200px);
-    font-size: 35px;
+    top: calc(50% - 400px);
+    left: calc(50% - 360px);
+    font-size: 50px;
     color: #024ef3;
     font-weight: bold;
+    width: calc(100vw -20px);
 }
 
 h1 {
@@ -42,6 +43,7 @@ h1 {
   justify-content: space-between;
   align-items: center;
   padding: 10px 40px;
+  width: calc(100vw - 100px);
 }
 
 .menu-topo h2 {
@@ -77,18 +79,25 @@ h1 {
 
 .conteudo {
   width: calc(100% - 250px);
-  height: calc(100vh - 200px);
+  height: calc(100vh - 500px);
   margin: 0; 
   margin-left: 110px; 
-  margin-top: calc(100vh - 650px);
+  margin-top: calc(100vh - 900px);
   background-color: rgb(0, 0, 0);
 
 }
 .conteudo img{
+  border: 2px solid black;
+  background-color: white;
+  background-position: center;
+  padding: 20px;
+  padding-top: 10px;
+  display: inline-block;
   height: 250px;
-  object-fit: cover;
-  padding-top: calc(100% - 1000px);
-  padding-left: calc(100% - 1000px);
+  margin-left: 190px;
+  margin-top: 120px;
+  padding-top: calc(100% - 2000px);
+  padding-left: calc(100% - 1900px);
 }
 
 .Rodape h3{
@@ -106,7 +115,7 @@ h1 {
   width: 100%;
 } 
 
-.Botoes{
+#Botoes{
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -114,13 +123,24 @@ h1 {
   
   
 }
-.Botoes li {
+#Botoes li {
   list-style: none;
   border: 1px solid #000;
   padding: 10px;
   background-color: rgb(6, 8, 8);}
 
-.Botoes li a {
+#Botoes li a {
   text-decoration: none;
   color: #ffffff;
+}
+
+.Debaixo p{
+  margin-top: 100px;
+  width: 1890px;
+  background-color: #000;
+  height: 90px;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 10px;
 }
