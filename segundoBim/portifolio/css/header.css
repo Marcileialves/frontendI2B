@@ -1,0 +1,14 @@
+#Titulo{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 10px;
+    color: white;
+    padding: 40px;
+    border-radius:2px;
+    margin-left: calc(100vw - 1500px);
+    background: linear-gradient(blue,rgb(17, 17, 123));
+    display: inline-block;
+    margin-top: 60px;
+    width: 1000px;
+    text-align: center;
+}
