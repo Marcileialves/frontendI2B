@@ -1,146 +1,35 @@
-body {
-  margin: 0;
-
-
-}
-
-header div {
-    display: inline-block;
-    background: linear-gradient(to right, #000000, #000000);
-    text-align: center;
-    width: calc(100vw - 20px);
-    height:12vw;
-}
-
-header div img {
-    display: inline-block;
-    position: absolute;
-    height: 130px;
-    top: calc(50% - 420px);
-    left: calc(100% - 1800px);
-}
-
-header div h1 {
-    display: inline-block;
-    position:  absolute;
-    top: calc(50% - 400px);
-    left: calc(50% - 360px);
-    font-size: 50px;
-    color: #024ef3;
-    font-weight: bold;
-    width: calc(100vw -20px);
-}
-
-h1 {
-    display: inline-block;
-    color: #1a6dff;
-    margin: 10px 0;
-}
-
-.menu-topo {
-  background-color: #00d4d4;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 40px;
-  width: calc(100vw - 100px);
-}
-
-.menu-topo h2 {
-  font-size: 18px;
-  color: #16120d;
-}
-
-.bimestres {
-  display: flex;
-  gap: 10px;
-}
-
-.bimestres button {
-  background-color: #000;
-  color: #fff;
-  border: none;
-  padding: 10px 15px;
-  cursor: pointer;
-}
-
-
-.linguagens {
-  display: flex;
-  justify-content: center;
-  gap: 60px;
-  flex-wrap: wrap;
-}
-
-.linguagens img {
-  width: 150px;
-  height: 150px;
-}
-
-.conteudo {
-  width: calc(100% - 250px);
-  height: calc(100vh - 500px);
-  margin: 0; 
-  margin-left: 110px; 
-  margin-top: calc(100vh - 900px);
+body{
   background-color: rgb(0, 0, 0);
 
+
 }
-.conteudo img{
-  border: 2px solid black;
-  background-color: white;
-  background-position: center;
+
+header h1{
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  padding: 60px;
+  text-align: center;
+  margin: 0px auto;
+}
+
+.links{
+  background-color: rgb(250, 246, 239);
   padding: 20px;
-  padding-top: 10px;
+  margin: 0;
+}
+.links li{
+
   display: inline-block;
-  height: 250px;
-  margin-left: 190px;
-  margin-top: 120px;
-  padding-top: calc(100% - 2000px);
-  padding-left: calc(100% - 1900px);
-}
-
-.Rodape h3{
-  text-align: center;
-  color: #ffffff;
-  font-size: 25px;
-  margin-top: 20px;
-}
-.Rodape {
-  margin-top: calc(100vh - 650px);
-  background-color: #0b0c0c;
-  padding: 20px;
-  position: relative;
-  bottom: 0;
-  width: 100%;
-} 
-
-#Botoes{
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin-top: 20px;
-  
-  
-}
-#Botoes li {
-  list-style: none;
-  border: 1px solid #000;
+  margin-right: 20px;
+  margin-top:10px;
+  background-color: rgb(10, 9, 9);
   padding: 10px;
-  background-color: rgb(6, 8, 8);}
+  
 
-#Botoes li a {
-  text-decoration: none;
-  color: #ffffff;
 }
 
-.Debaixo p{
-  margin-top: 100px;
-  width: 1890px;
-  background-color: #000;
-  height: 90px;
-  color: white;
-  text-align: center;
-  font-size: 30px;
-  padding-top: 10px;
+.links li a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  
 }
