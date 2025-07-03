@@ -5,10 +5,32 @@
     color: white;
     padding: 40px;
     border-radius:2px;
-    margin-left: calc(100vw - 1500px);
+    margin-left: calc(100vw - 1200px);
     background: linear-gradient(blue,rgb(17, 17, 123));
     display: inline-block;
     margin-top: 60px;
     width: 1000px;
     text-align: center;
+}
+.links{
+    display: inline-block;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 400px;
+
+}
+.links li{
+    display: inline-block;
+    margin-right: 20px;
+    margin-top:10px;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 5px;;
+}
+.links li a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+
 }
