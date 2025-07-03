@@ -7,7 +7,7 @@
     margin-top: 0px;
     padding: 60px;
     margin-bottom: 0px;
-    background:  linear-gradient(black, rgb(8, 82, 218));
+    background:  linear-gradient(rgb(13, 144, 161), rgb(53, 224, 187));
     color: white;
 
 }
@@ -17,7 +17,7 @@
 
 .Container{
     margin: 0px;
-    background-color: rgb(206, 206, 231);
+    background-color: rgb(213, 213, 223);
     margin-top: 0px;
     height: 90px;
 }
@@ -29,7 +29,7 @@
 
 }
 .Menu li{
-    background-color: blue;
+    background-color: rgb(99, 99, 235);
     display: inline;
     padding: 10px;
     margin: 10px;   
