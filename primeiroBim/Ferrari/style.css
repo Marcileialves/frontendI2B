@@ -34,10 +34,11 @@ body{
     background-color: white;
 }
 .Menu {
+    display: inline-block;
     text-align: center;
     border: solid 2px ;
     width: 50%;
-    margin-left: 30%;
+    margin-left: calc(100vw - 1500px);
     padding: 20px;
     border-radius: 15px;
     border-color: #d3d3d3;
@@ -93,7 +94,7 @@ body{
 
 
 #div_um{
-    background-image: url(/Ferrari/imag/carro_roma.jpg);
+    background-image: url(./imag/carro_roma.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-position: top 70px left 20px;
@@ -102,7 +103,7 @@ body{
     border: 2px solid white;
 }
 #div_dois{
-    background-image: url(/Ferrari/imag/carro_dois.jpg);
+    background-image: url(./imag/carro_dois.jpg);
     background-repeat: no-repeat;
     background-position: top 60px left 20px;
     background-size: 90%;
@@ -110,7 +111,7 @@ body{
     border: 2px solid white;
 }
 #div_tres{
-    background-image: url(/Ferrari/imag/Carro_3.jpg);
+    background-image: url(./imag/Carro_3.jpg);
     background-repeat: no-repeat;
     background-position: top 70px left 20px;
     background-size: 90%;
@@ -118,7 +119,7 @@ body{
     border: 2px solid white;
 }
 #div_quatro{
-    background-image: url(/Ferrari/imag/carro_4.jpg);
+    background-image: url(./imag/carro_4.jpg);
     background-repeat: no-repeat;
     background-position: top 70px left 20px;
     background-size: 90%;

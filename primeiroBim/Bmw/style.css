@@ -1,12 +1,4 @@
-@keyframes mover {
-    0% {
-        transform: translateY(0);
-    }
-    100% {
-        transform: translateY(-10px);
-    }
-    
-}
+
 .list li {
     text-align: center;
     display: inline-block;
@@ -34,10 +26,11 @@ body{
     background-color: white;
 }
 .Menu {
+    display: inline-block;
     text-align: center;
     border: solid 2px ;
     width: 50%;
-    margin-left: 30%;
+    margin-left: calc(100vw - 1500px);
     padding: 20px;
     border-radius: 15px;
     border-color: #d3d3d3;
