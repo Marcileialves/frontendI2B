@@ -1,26 +1,31 @@
 #Titulo{
-    font-size: 50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 10px;
-    color: white;
-    padding: 40px;
-    border-radius:2px;
-    margin-left: calc(100vw - 1200px);
-    background: linear-gradient(blue,rgb(17, 17, 123));
-    display: inline-block;
-    margin-top: 60px;
-    width: 1000px;
-    text-align: center;
-}
-.links{
-    display: inline-block;
-    padding: 20px;
-    margin-top: 30px;
-    margin-left: 330px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(54, 51, 66);
+    background: linear-gradient(rgb(13, 144, 161), rgb(53, 224, 187));
+    padding: 4rem;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-grow:2;
+    justify-content: center;
+    min-width: 80%;
 
 }
-.links li{
+.links{
+    display: flex;
+    flex-wrap: wrap;
     display: inline-block;
+    background: linear-gradient(rgb(13, 144, 161), rgb(32, 45, 160));
+    padding: 2rem;
+    margin-left: 2em;
+}
+.links li{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
     margin-right: 20px;
     margin-top:10px;
     background-color: blue;
