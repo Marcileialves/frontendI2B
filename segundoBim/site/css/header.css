@@ -1,68 +1,20 @@
-#M_pageHome{
-    border: 2px solid black;
-    padding: 90px;
-    background: linear-gradient(black,rgb(90, 92, 69));
-    margin-top: 0px;
-    margin-bottom: 10px;
 
-}
-
-#M_pageHome li{
+@media (max-width:650px) {
+    header h1{
+        border: 1px solid black;
+        padding: 30px;
+        text-align: center;
     
-    color: white;
-    text-align: center;
-    display: inline-block;
-    margin-left: 0 auto;
-
-}
-
-#M_pageHome li a {
-    margin-left: 350px;
-    background-color: rgb(0, 0, 0);
-    padding: 20px;
-    border: solid white;
-    border-radius: 15px;
-    text-decoration: none;
-    color: beige;
-
-}
-
-
-
-
-
-
-
-
-@media screen and (max-width: 600px) {
-    #Menu_pag{
-        position: absolute;
-        bottom: 0;
-        height: 100vh;
-        width: 10px;
-
-
-
+    }
+    #M_pageHome {
+        border: 1px solid black;
+        margin-top: 2px;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        width: 100vw;
     }
 
-    #Menu_pag  li{
-        font-size: 10px;
-        padding: 10px 20px;
-        margin-top: 10px;
-        border: 2px solid black;
-        border-radius: 10px;
-        
-
-    }
-
-    #Menu_pag li a {
-        margin-left: 0 auto;
-        font-size: 10;
-        color: black;
-        text-decoration: none;
-        border: 2px;
-
-    }
 
     
 }

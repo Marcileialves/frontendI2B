@@ -1,0 +1,36 @@
+
+
+
+@media (max-width:650px) {
+    header h1{
+        border: 1px solid black;
+        padding: 30px;
+        text-align: center;
+    
+    }
+    #M_pageHome {
+        border: 1px solid black;
+        margin-top: 2px;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        width: 100vw;
+    }
+    .sesao{
+        border: 1px solid  rgb(17, 17, 17);
+        width: 80vw;
+        position: absolute;
+        left: 10%;
+        top:20%;
+        background-color: rgb(190, 190, 190);
+    }
+    .sesao img{
+        height: 100px;
+    }
+    .sesao p,h3 {
+        text-align: center;
+        color: black;
+        margin: 5px;
+    };
+    
+}
