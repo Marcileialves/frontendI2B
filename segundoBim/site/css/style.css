@@ -1,36 +1,169 @@
+@media (max-width: 768px) {
 
-
-
-@media (max-width:650px) {
-    header h1{
-        border: 1px solid black;
-        padding: 30px;
-        text-align: center;
-    
+    #M_pageHome li a:hover {
+        background-color: #6b7280;
     }
+
+    /* Conteúdo principal */
+    main {
+        padding: 1rem;
+    }
+
+    .sesao h3 {
+        font-size: 1.3rem;
+        color: #111827;
+        margin-top: 1.5rem;
+    }
+
+    .sesao p {
+        font-size: 1rem;
+        line-height: 1.6;
+        color: #374151;
+        margin-bottom: 1rem;
+    }
+
+    .sesao img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        margin: 1rem 0;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Rodapé */
+    footer {
+        background-color: #1f2937;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+        font-size: 0.9rem;
+        margin-top: 2rem;
+    }
+
+    footer p {
+        margin: 0.3rem 0;
+    }
+}
+
+
+@media (max-width: 2000px) {
+    body {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    header {
+        padding: 2rem 1rem;
+        background: linear-gradient(135deg, #1f2937, #374151);
+        color: white;
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 2.2rem;
+    }
+
     #M_pageHome {
-        border: 1px solid black;
-        margin-top: 2px;
         display: flex;
-        flex-direction: row;
-        gap: 30px;
-        width: 100vw;
+        justify-content: center;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+        padding: 0;
+        list-style: none;
+        margin-top: 1.5rem;
     }
-    .sesao{
-        border: 1px solid  rgb(17, 17, 17);
-        width: 80vw;
-        position: absolute;
-        left: 10%;
-        top:20%;
-        background-color: rgb(190, 190, 190);
+
+    #M_pageHome li a {
+        color: #ffffff;
+        background-color: #4b5563;
+        padding: 0.8rem 1.2rem;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: 500;
+        transition: background-color 0.3s;
     }
-    .sesao img{
-        height: 100px;
+
+    #M_pageHome li a:hover {
+        background-color: #6b7280;
     }
-    .sesao p,h3 {
+
+    main {
+        padding: 2rem 1rem;
+    }
+
+    .sesao {
+        max-width: 1000px;
+        margin: 0 auto;
+        font-size: 1.05rem;
+        line-height: 1.7;
+    }
+
+    .sesao h3 {
+        font-size: 1.5rem;
+        color: #111827;
+        margin-top: 2rem;
+    }
+
+    .sesao p {
+        color: #374151;
+        margin-bottom: 1rem;
+    }
+
+    .sesao img {
+        width: 80%;
+        display: block;
+        margin: 2rem auto;
+        border-radius: 12px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    footer {
+        margin-top: 4rem;
+        background-color: #111827;
+        color: white;
         text-align: center;
-        color: black;
-        margin: 5px;
-    };
-    
+        padding: 2rem 1rem;
+        font-size: 1rem;
+    }
+
+    footer p {
+        margin: 0.5rem 0;
+    }
+}
+
+@media (max-width: 2000px) {
+    main {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem;
+        font-size: 1.1rem;
+        line-height: 1.8;
+        background-color: #f9fafb;
+        border-radius: 12px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    }
+
+    main h3 {
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+        color: #1f2937;
+    }
+
+    main p {
+        font-size: 1.05rem;
+        color: #374151;
+        margin-bottom: 1rem;
+    }
+
+    #tabelas table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 1rem;
+    }
+
+    #tabelas th, #tabelas td {
+        border: 1px solid #d1d5db;
+        padding: 0.8rem;
+        text-align: center;
+    }
 }
