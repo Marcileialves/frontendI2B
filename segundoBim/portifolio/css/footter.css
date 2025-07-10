@@ -3,11 +3,12 @@ footer {
     bottom: 0;
     left: 0;
     width: 100vw;
-    background-color: #0077b6;
+    background-color: #0f0f0f;
     color: white;
     text-align: center;
     margin-top: 2rem;
     font-size: 1rem;
+    box-shadow: 0px 10px 10px burlywood;
 }
 
 @media (max-width: 500px) {

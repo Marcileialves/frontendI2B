@@ -1,7 +1,12 @@
+
+body{
+    background-color: black;
+}
 header {
-    background-color: #0077b6;
+    background: linear-gradient(rgba(0, 0, 0, 0.589),rgb(17, 17, 17));
     padding: 1rem;
     color: white;
+    box-shadow: 10px 10px 10px blanchedalmond;
 }
 
 nav {
