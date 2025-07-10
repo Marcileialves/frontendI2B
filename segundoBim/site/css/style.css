@@ -241,3 +241,74 @@ body {
     height: 150px;
   }
 }
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f8;
+  padding: 2rem;
+}
+
+form {
+  max-width: 600px;
+  margin: auto;
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+form h2 {
+  margin-bottom: 1rem;
+  color: #333;
+  text-align: center;
+}
+
+fieldset {
+  border: 2px solid #007b5e;
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+
+legend {
+  font-weight: bold;
+  color: #007b5e;
+  padding: 0 0.5rem;
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: 600;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 0.3rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #007b5e;
+  outline: none;
+}
+
+/* 📱 Responsivo para telas pequenas */
+@media (max-width: 600px) {
+  form {
+    padding: 1rem;
+  }
+
+  fieldset {
+    padding: 1rem;
+  }
+
+  input {
+    font-size: 0.95rem;
+  }
+}
