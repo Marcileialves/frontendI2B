@@ -1,41 +1,44 @@
-#Titulo{
-    font-size: 2rem;
-    font-weight: bold;
-    color: rgb(54, 51, 66);
-    background: linear-gradient(rgb(13, 144, 161), rgb(53, 224, 187));
-    padding: 4rem;
-    margin-bottom: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    flex-grow:2;
-    justify-content: center;
-    min-width: 80%;
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fira Code', monospace;
+  background-repeat: no-repeat;
 }
-.links{
-    display: flex;
-    flex-wrap: wrap;
-    display: inline-block;
-    background: linear-gradient(rgb(13, 144, 161), rgb(32, 45, 160));
-    padding: 2rem;
-    margin-left: 2em;
-}
-.links li{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: row;
-    margin-right: 20px;
-    margin-top:10px;
-    background-color: blue;
-    padding: 10px;
-    border-radius: 5px;;
-}
-.links li a{
-    color: white;
-    text-decoration: none;
-    font-size: 30px;
-    font-weight: bold;
 
+header {
+  background-color: #0a0a0a;
+  color: #39ff14;
+  padding: 1rem 2rem;
+  border-bottom: 2px solid #39ff14;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-menu a {
+  color: #39ff14;
+  text-decoration: none;
+  position: relative;
+  transition: 0.3s;
+}
+
+.nav-menu a:hover {
+  color: #b388eb;
 }

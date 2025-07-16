@@ -1,20 +1,82 @@
-body{
-    background-color: rgb(4, 4, 72);
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: 'Fira Code', monospace;
+  padding-bottom: 4rem;
 }
 
-#Conteudoprinc{
-    background-color: aqua;
+main {
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem;
 }
-#Conteudoprinc div{
-    background-color: aquamarine;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 3rem;
 
+section {
+  margin-bottom: 3rem;
 }
-#Conteudoprinc div img{
-    width: 300px;
-    height: 200px;
-    border-radius: 10px;
+
+#inicio {
+  text-align: center;
+  animation: typewriter 2s steps(40, end);
+}
+
+#inicio h2 {
+  font-size: 2rem;
+  color: #00f7ff;
+  margin-bottom: 1rem;
+}
+
+.foto-perfil {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 4px dashed #b388eb;
+  box-shadow: 0 0 25px #b388ebaa;
+  object-fit: cover;
+  margin-top: 1rem;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.card {
+  background: #1a1a1a;
+  border: 1px solid #333;
+  padding: 1rem;
+  width: 300px;
+  border-radius: 12px;
+  transition: 0.3s;
+  box-shadow: 0 0 10px #00f7ff44;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 15px #00f7ffcc;
+}
+
+.card img {
+  width: 100%;
+  height: 160px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.card h3 {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: #39ff14;
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+@keyframes typewriter {
+  from { width: 0; }
+  to { width: 100%; }
 }
