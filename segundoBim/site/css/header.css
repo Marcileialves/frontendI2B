@@ -1,68 +1,29 @@
-#M_pageHome{
-    border: 2px solid black;
-    padding: 90px;
-    background: linear-gradient(black,rgb(90, 92, 69));
-    margin-top: 0px;
-    margin-bottom: 10px;
-
+header {
+  background-color: #1e1e2f;
+  padding: 1rem;
+  color: #00ffc3;
+  text-align: center;
+  border-bottom: 3px solid #00ffc3;
+  box-shadow: 0 2px 10px rgba(0, 255, 195, 0.2);
 }
 
-#M_pageHome li{
-    
-    color: white;
-    text-align: center;
-    display: inline-block;
-    margin-left: 0 auto;
-
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+  gap: 2rem;
+  flex-wrap: wrap;
 }
 
-#M_pageHome li a {
-    margin-left: 350px;
-    background-color: rgb(0, 0, 0);
-    padding: 20px;
-    border: solid white;
-    border-radius: 15px;
-    text-decoration: none;
-    color: beige;
-
+nav a {
+  color: #00ffc3;
+  font-weight: bold;
+  transition: all 0.3s;
 }
 
-
-
-
-
-
-
-
-@media screen and (max-width: 600px) {
-    #Menu_pag{
-        position: absolute;
-        bottom: 0;
-        height: 100vh;
-        width: 10px;
-
-
-
-    }
-
-    #Menu_pag  li{
-        font-size: 10px;
-        padding: 10px 20px;
-        margin-top: 10px;
-        border: 2px solid black;
-        border-radius: 10px;
-        
-
-    }
-
-    #Menu_pag li a {
-        margin-left: 0 auto;
-        font-size: 10;
-        color: black;
-        text-decoration: none;
-        border: 2px;
-
-    }
-
-    
+nav a:hover {
+  color: white;
+  transform: scale(1.1);
 }
