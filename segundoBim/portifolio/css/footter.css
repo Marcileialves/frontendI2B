@@ -1,19 +1,19 @@
 footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100vw;
-    background-color: #0f0f0f;
-    color: white;
-    text-align: center;
-    margin-top: 2rem;
-    font-size: 1rem;
-    box-shadow: 0px 10px 10px burlywood;
+  background-color: #0a0a0a;
+  color: #39ff14;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.9rem;
+  border-top: 2px solid #39ff14;
 }
 
-@media (max-width: 500px) {
-    footer {
-        font-size: 0.9rem;
-        padding: 1rem 0.5rem;
-    }
+footer a {
+  color: #b388eb;
+  text-decoration: none;
+  margin: 0 0.5rem;
+  transition: 0.3s;
+}
+
+footer a:hover {
+  color: #00f7ff;
 }

@@ -1,44 +1,74 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Meu Portfólio</title>
-
-  <!-- Importando CSS em ordem -->
-  <link rel="stylesheet" href="css/header.css" />
-  <link rel="stylesheet" href="css/style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio - Marcilei</title>
+  <link rel="stylesheet" href=" ./css/header.css" >
   <link rel="stylesheet" href="./css/footter.css" />
-  
+  <link rel="stylesheet" href="./css/style.css" />
 </head>
 <body>
 
   <header>
-    <nav>
-      <h1>Marcilei Alves</h1>
-      <ul>
-        <li><a href="./sobre.html">Sobre</a></li>
-        <li><a href="projetos.html">Projetos</a></li>
-        <li><a href="./contatos.html">Contato</a></li>
-        <li><a href="./home.html">Home page</a></li>
+    <nav class="navbar">
+      <h1 class="logo">Marcilei</h1>
+      <ul class="nav-menu">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
       </ul>
     </nav>
   </header>
+
+  <!-- MAIN -->
   <main>
-      <section class="Conta">
-          <h2>Sobre Mim</h2>
-          <img src="./img/image.png" alt="Foto do desenvolvedor">
-          <p>Sou um desenvolvedor web com foco em HTML, CSS e JavaScript.</p>
-      </section>
+    <section id="inicio">
+      <h2>Bem-vindo!</h2>
+      <p>Sou desenvolvedor web apaixonado por tecnologia.</p>
+      <img src="./img/imagemarte.png" alt="Minha Foto" class="foto-perfil" />
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre">
+      <h2>Sobre Mim</h2>
+      <p>Sou Marcilei, estudo programação e adoro aprender novas tecnologias. Busco crescer como desenvolvedor full stack e criar soluções úteis para o mundo. iniciei minha carreira na programação com 14 anos de idade, desde então estudei c# mas não levei a diante, agora estou no cursando ifro pretendo seguir carreira.</p>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projetos">
+      <h2>Projetos</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="./img/sitenv.png" alt="Projeto 1" />
+          <h3>Estudando esse projeto</h3>
+          <p>Site pessoal com HTML e CSS.</p>
+        </div>
+        <div class="card">
+          <img src="./img/site.png" alt="Projeto 2" />
+          <h3>Projeto fablica software</h3>
+          <p>Desenvolvendo com a equipe site de pesc fish.</p>
+        </div>
+        <div class="card">
+          <img src="./img/fotohacker.png" alt="Projeto 3" />
+          <h3>Projeto em espera</h3>
+          <p>aguardando inicio projeto de cibersegurança .</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato">
+      <h2>Contato</h2>
+      <p>Email: a.marcilei@estudante.ifro.eduç.br</p>
+      <p>Telefone: 69981161733</p>
+    </section>
   </main>
 
-  
-
-  
-
-  <footer id="contato">
-    <p>Contato: a.marcilei@estudante.ifro.edu.br | © 2025 Marcilei Dev</p>
-    <p>gitHub: <a href="https://github.com/Marcileialves">click aqui para acessar</a>.</p>
+  <!-- FOOTER -->
+  <footer>
+    <>&copy; 2025 - Marcilei | <a href="https://github.com/Marcileialves">GitHub</a> |
   </footer>
 
 </body>
