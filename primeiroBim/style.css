@@ -1,44 +1,53 @@
-body{
-    background-color: black;
-}
-#Nome_site{
-    font-family: 'Arial', sans-serif;
-    font-size: 24px;
-    color: #333;
+body {
+    background-color: rgb(3, 173, 188);
+    margin: 0;
+    padding: 0;
+  
+  }
+  
+  .ContainerP{
+    position: relative;
+    top: 18rem;
+    margin: 0 auto;
+    background-color: aliceblue;
+    height: 500px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    border-radius: 30px;
+  }
+  
+  .ContainerP h1{
+    padding: 20px;
+    color: black;
+    font-size: 30px;
     text-align: center;
-    margin-top: 0px;
-    margin-top: 0px;
-    padding: 60px;
-    margin-bottom: 0px;
-    background:  linear-gradient(rgb(13, 144, 161), rgb(53, 224, 187));
-    color: white;
-
-}
-
-/* container div do links
-/* menu é class dos links */
-
-.Container{
-    margin: 0px;
-    background-color: rgb(213, 213, 223);
-    margin-top: 0px;
-    height: 90px;
-}
-
-.Menu{
-    display: inline-block;
-    margin-left: calc(100vw - 600px);
-    margin-top: 30px;
-
-}
-.Menu li{
-    background-color: rgb(99, 99, 235);
-    display: inline;
-    padding: 10px;
-    margin: 10px;   
-}
-.Menu li a{
-    font-size: 20px;
-    color: white;
+  }
+  
+  .ContainerP nav ul li{
+    background-color: aqua;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 10px;
+    width: 80%;
+    list-style: none;
+  
+  }
+  .ContainerP nav ul{
+    width: 100%;
+  }
+  .ContainerP nav {
+    width: 100%;
+  }
+  
+  .ContainerP nav ul li a{
     text-decoration: none;
-}
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+    
+  }
+  
